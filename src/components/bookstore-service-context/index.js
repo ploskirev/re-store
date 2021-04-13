@@ -5,7 +5,7 @@ const {
   Consumer: BookstoreServiceConsumer
 } = React.createContext()
 
-export default {
+export {
   BookstoreServiceProvider,
   BookstoreServiceConsumer
 }
